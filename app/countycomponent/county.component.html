@@ -1,0 +1,26 @@
+﻿
+<div>
+
+    <h2>Counties</h2>
+</div>
+
+<div class="table table-responsive">
+    <div>
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+
+                </tr>
+            </thead>
+            <tr *ngFor="let post of counties">
+                <td>{{post.id}}</td>
+                <td><a href="#">{{post.name}}</a></td>
+                
+
+            </tr>
+        </table>
+    </div>
+</div>
+

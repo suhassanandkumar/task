@@ -1,0 +1,25 @@
+﻿
+<div>
+ 
+  <h2>Users</h2>
+</div>
+<div class="table-responsive">
+  <div>
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th>Id</th>
+          <th>Name</th>
+          <th>Address</th>
+          
+        </tr>
+      </thead>
+      <tr *ngFor="let post of users">
+        <td>{{post.id}}</td>
+        <td><a href="#">{{post.name}}</a></td>
+        <td>{{post.address}}</td>
+
+      </tr>
+    </table>
+  </div>
+</div>

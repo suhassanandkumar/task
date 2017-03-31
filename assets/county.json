@@ -1,0 +1,20 @@
+{
+    "counties": [
+
+        {
+            "id": 123,
+            "name": "county123"
+
+        },
+        {
+            "id": 456,
+            "name": "county456"
+
+        },
+        {
+            "id": 789,
+            "name": "county789"
+
+        }
+    ]
+}
